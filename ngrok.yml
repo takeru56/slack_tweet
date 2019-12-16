@@ -1,0 +1,7 @@
+# $ngrok start -config ngrok.yml --all --region=jp
+
+authtoken:
+tunnels:
+  sinatra:
+    proto: http
+    addr: 4567
